@@ -1,0 +1,213 @@
+#welcome-section {
+  font-family: "Nunito Sans", sans-serif;
+  height: 100vh;
+  color: white;
+  h1 {
+    display: none;
+  }
+  .gray-part {
+    background-color: #343841;
+    height: 70%;
+    @media (max-width: 930px) {
+      height: 60%;
+    }
+    @media (max-width: 770px) {
+      height: 50%;
+    }
+    .site-hero {
+      margin-top: 5%;
+      h2 {
+        text-align: center;
+        font-weight: 800;
+        font-size: 3.5rem;
+        margin-bottom: 2%;
+        @media (max-width: 770px) {
+          font-size: 2.5rem;
+        }
+        @media (max-width: 470px) {
+          font-size: 1.7rem;
+        }
+        span:first-child {
+          color: #45bafc;
+        }
+        span:last-child {
+          color: #57eea1;
+        }
+      }
+      span.hero-description {
+        color: #45bafc;
+      }
+      p {
+        max-width: 613px;
+        text-align: center;
+        margin: auto;
+        color: #bec6d5;
+        font-size: 1.2em;
+        @media (max-width: 770px) {
+          width: 90%;
+          font-size: 1em;
+        }
+        @media (max-width: 450px) {
+          font-size: 0.9em;
+          margin-top: 9%;
+        }
+      }
+      button {
+        margin: auto;
+        display: block;
+        margin-top: 3%;
+        padding: 1.2rem 1.5rem;
+        font-size: 1em;
+        font-weight: 800;
+        cursor: pointer;
+        box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 6px;
+        background-color: #3c3f47;
+        color: #d8d8da;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        &:hover {
+          background: linear-gradient(
+            to bottom left,
+            rgba(255, 255, 255, 0.03),
+            rgba(255, 255, 255, 0.07)
+          );
+        }
+        @media (max-width: 770px) {
+          margin-top: 5%;
+          font-weight: normal;
+          padding: 0.8rem 1rem;
+        }
+        @media (max-width: 613px) {
+          margin-top: 9%;
+        }
+        @media (max-width: 450px) {
+          margin-top: 15%;
+        }
+        a {
+          text-decoration: none;
+          color: #d8d8da;
+        }
+      }
+    }
+  }
+  .non-gray-part {
+    height: 30%;
+    h2 {
+      text-align: center;
+      font-size: 2.25rem;
+      color: #2d2d2d;
+      margin: 80px auto 15px;
+      font-size: 2.5rem;
+      font-weight: 800;
+      @media (max-width: 770px) {
+        font-size: 1.7rem;
+      }
+    }
+    p {
+      color: #858787;
+      font-size: 1em;
+      text-align: center;
+      max-width: 514px;
+      margin: auto;
+      line-height: 1.5;
+      @media (max-width: 770px) {
+        width: 90%;
+      }
+    }
+  }
+  nav {
+    background-color: #1d1e25;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: 770px) {
+    }
+    h2 {
+      margin-left: 15%;
+      position: relative;
+      top: 15px;
+      font-size: 1.2rem;
+      font-weight: 400;
+      line-height: 1.6;
+      background: linear-gradient(to right, #45bafc 0%, #57eea1 100%);
+      background-size: 0 6px;
+      background-repeat: no-repeat;
+      background-position: left 95%;
+      transition: all 100ms linear;
+      height: 31px;
+      &:hover {
+        cursor: pointer;
+        background-size: 100% 6px;
+      }
+      @media (max-width: 770px) {
+        margin-left: 3%;
+      }
+    }
+    .nav-links {
+      margin-right: 15%;
+      position: relative;
+      top: 20px;
+      @media (max-width: 770px) {
+        display: none;
+      }
+      a {
+        color: #bec6d5;
+        text-decoration: none;
+        padding: 0px 25px;
+        font-size: 1.2rem;
+        &:hover {
+          color: white;
+        }
+      }
+    }
+    i.hamburger {
+      display: none;
+      padding: 2% 5% 2% 2%;
+      font-size: 2em;
+      @media (max-width: 770px) {
+        display: block;
+      }
+      @media (max-width: 500px) {
+        padding-top: 3%;
+      }
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    i.fa-times-circle {
+      position: fixed;
+      right: 5px;
+      top: 5px;
+      display: none;
+      // display: block;
+      z-index: 1;
+      padding: 2% 5% 2% 2%;
+      font-size: 2em;
+      @media (max-width: 500px) {
+        padding-top: 3%;
+      }
+      &:hover {
+        cursor: pointer;
+      }
+    }
+    .responsive-nav-menu {
+      display: none;
+      // display: flex;
+      flex-direction: column;
+      position: fixed;
+      top: 0;
+      background-color: #292c33;
+      width: 100%;
+      height: 200px;
+      a {
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        padding: 5%;
+        &:hover {
+          background-color: #1d1e25;
+        }
+      }
+    }
+  }
+}

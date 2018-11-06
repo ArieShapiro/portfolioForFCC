@@ -1,0 +1,103 @@
+#welcome-section {
+  font-family: "Nunito Sans", sans-serif;
+  height: 100vh;
+  color: white; }
+  #welcome-section h1 {
+    display: none; }
+  #welcome-section .gray-part {
+    background-color: #343841;
+    height: 70%; }
+    #welcome-section .gray-part .site-hero {
+      margin-top: 5%; }
+      #welcome-section .gray-part .site-hero h2 {
+        text-align: center;
+        font-weight: 800;
+        font-size: 3.5rem;
+        margin-bottom: 2%; }
+        #welcome-section .gray-part .site-hero h2 span:first-child {
+          color: #45bafc; }
+        #welcome-section .gray-part .site-hero h2 span:last-child {
+          color: #57eea1; }
+      #welcome-section .gray-part .site-hero span.hero-description {
+        color: #45bafc; }
+      #welcome-section .gray-part .site-hero p {
+        max-width: 613px;
+        text-align: center;
+        margin: auto;
+        color: #bec6d5;
+        font-size: 1.2em; }
+      #welcome-section .gray-part .site-hero button {
+        margin: auto;
+        display: block;
+        margin-top: 3%;
+        padding: 1.2rem 1.5rem;
+        font-size: 1em;
+        font-weight: 800;
+        cursor: pointer;
+        -webkit-box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.1);
+        box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 6px;
+        background-color: #3c3f47;
+        color: #d8d8da;
+        border: 1px solid rgba(255, 255, 255, 0.2); }
+        #welcome-section .gray-part .site-hero button:hover {
+          background: -webkit-gradient(linear, right top, left bottom, from(rgba(255, 255, 255, 0.03)), to(rgba(255, 255, 255, 0.07)));
+          background: -webkit-linear-gradient(top right, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.07));
+          background: -o-linear-gradient(top right, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.07));
+          background: linear-gradient(to bottom left, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.07)); }
+  #welcome-section .non-gray-part {
+    height: 30%; }
+    #welcome-section .non-gray-part h2 {
+      text-align: center;
+      font-size: 2.25rem;
+      color: #2d2d2d;
+      margin: 80px 0 15px 0;
+      font-size: 2.5rem;
+      font-weight: 800; }
+    #welcome-section .non-gray-part p {
+      color: #858787;
+      font-size: 1em;
+      text-align: center;
+      max-width: 514px;
+      margin: auto;
+      line-height: 1.5; }
+  #welcome-section nav {
+    background-color: #1d1e25;
+    height: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    #welcome-section nav h2 {
+      margin-left: 15%;
+      position: relative;
+      top: 15px;
+      font-size: 1.2rem;
+      font-weight: 400;
+      line-height: 1.6;
+      background: -webkit-gradient(linear, left top, right top, from(#45bafc), to(#57eea1));
+      background: -webkit-linear-gradient(left, #45bafc 0%, #57eea1 100%);
+      background: -o-linear-gradient(left, #45bafc 0%, #57eea1 100%);
+      background: linear-gradient(to right, #45bafc 0%, #57eea1 100%);
+      background-size: 0 6px;
+      background-repeat: no-repeat;
+      background-position: left 95%;
+      -webkit-transition: all 100ms linear;
+      -o-transition: all 100ms linear;
+      transition: all 100ms linear;
+      height: 31px; }
+      #welcome-section nav h2:hover {
+        background-size: 100% 6px; }
+    #welcome-section nav .nav-links {
+      margin-right: 15%;
+      position: relative;
+      top: 20px; }
+      #welcome-section nav .nav-links a {
+        color: #bec6d5;
+        text-decoration: none;
+        padding: 0px 25px;
+        font-size: 1.2rem; }
+        #welcome-section nav .nav-links a:hover {
+          color: white; }

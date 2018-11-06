@@ -1,0 +1,40 @@
+footer {
+  font-family: "Nunito Sans", sans-serif;
+  background-color: #292c33;
+  color: white;
+  margin-top: 5%; }
+  footer h1 {
+    color: #45bafc;
+    font-size: 1.5em;
+    font-weight: initial;
+    text-align: center;
+    padding: 3%;
+    margin-bottom: 0; }
+    footer h1 strong {
+      color: #57eea1;
+      font-weight: 900; }
+  footer p {
+    color: #bec6d5;
+    font-size: 0.9em;
+    text-align: center;
+    width: 500px;
+    margin: auto; }
+  footer .social-icons {
+    margin: 3% 0 4% 0;
+    display: block;
+    text-align: center;
+    font-size: 1.7em; }
+    footer .social-icons i {
+      color: white;
+      padding: 0 8px 0; }
+      footer .social-icons i:hover {
+        color: #45bafc; }
+    footer .social-icons #profile-link {
+      text-decoration: none; }
+  footer .footer-bottom {
+    background-color: #1d1e25;
+    height: 77px; }
+    footer .footer-bottom p {
+      color: #909db7;
+      font-size: 0.8em;
+      padding: 2%; }

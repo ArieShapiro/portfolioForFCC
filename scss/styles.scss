@@ -1,0 +1,30 @@
+@import 'welcome-section';
+@import 'skills';
+@import 'projects';
+@import 'contact';
+@import 'footer';
+
+
+body {
+  background-color: #fcfcfc;
+  font-family: "Nunito Sans", sans-serif;
+}
+nav#navbar {
+  height: 0;
+  position: sticky;
+  top: 0;
+  .fcc-test {
+    display: none;
+  }
+}
+
+
+.display-block{
+  display: block;
+}
+
+.display-flex{
+  display: flex;
+}
+
+

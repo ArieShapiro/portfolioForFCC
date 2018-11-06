@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="shortcut icon" type="imgs/png" href="./imgs/favicon.jpg" />
+
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="resets.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+
+    <title>Arie Shapiro - Web Developer Resume</title>
+
+</head>
+
+<body>
+
+    <!-- NOT SEEN (Only for fcc testing purposes) -->
+    <nav id="navbar">
+        <a href="#projects" class="fcc-test">Go To Projects!</a>
+    </nav>
+    <!-- ---------------------------------------- -->
+
+
+    <section id="welcome-section">
+        <!-- NOT SEEN (Only for fcc testing purposes) -->
+        <h1>Arie Shapiro</h1>
+        <!-- ---------------------------------------- -->
+
+        <div class="gray-part">
+
+            <nav>
+
+                <h2>Arie <strong>Shapiro</strong></h2>
+
+                <div class="nav-links">
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Portfolio</a>
+                    <a href="#contact">Contact</a>
+                </div>
+
+                <!---------- Responsive Navbar ---------->
+                <i class="fas fa-bars hamburger" onclick="openNav()"></i>
+                <i class="far fa-times-circle" onclick="closeNav()"></i>
+                <nav class="responsive-nav-menu display-flex">
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Portfolio</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+                <!-- --------------------------------- -->
+
+            </nav>
+
+            <div class="site-hero">
+
+                <h2> <span>Frontend</span>&ensp;<span>Developer</span> </h2>
+
+                <p>Hi, I'm <span class="hero-description">Arie</span>!
+                    I design and develop <span class="hero-description">websites</span> on a quest,
+                    and always on the look out for the next project.</p>
+
+                <button><a href="#contact">Get in Touch</a></button>
+
+            </div>
+
+        </div>
+
+        <div class="non-gray-part">
+
+            <h2 id="skills">Technical Skills</h2>
+
+            <p>I specialize in front end development and design,
+                with knowledge in back end development and using data bases.</p>
+
+        </div>
+
+    </section>
+
+    <section id="skills">
+
+        <div class="card">
+            <div class="card-img">
+                <img src="imgs/html.png" alt="html">
+            </div>
+            <div class="card-text">
+
+                <h3>HTML5 + Canvas</h3>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="imgs/css.png" class="css" alt="css">
+            </div>
+            <div class="card-text">
+                <h3>CSS3 + Flex + Grid</h3>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="imgs/sass.jpg" class="sass" alt="Sass">
+            </div>
+            <div class="card-text">
+                <h3>Sass</h3>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="imgs/responsive.jpg" alt="Responsive Web Design">
+            </div>
+            <div class="card-text">
+                <h3>Responsive Web Design</h3>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="imgs/es6.jpg" alt="ES6">
+            </div>
+            <div class="card-text">
+                <h3>JavaScript + ES6</h3>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="imgs/vue.png" alt="Vue.js">
+            </div>
+            <div class="card-text">
+                <h3>Vue.js + Vuex</h3>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="imgs/node.png" alt="Node.js">
+            </div>
+            <div class="card-text">
+                <h3>Node.js</h3>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="imgs/npm.png" alt="NMP">
+            </div>
+            <div class="card-text">
+                <h3>NMP</h3>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="imgs/express.jpg" class="express" alt="Express">
+            </div>
+            <div class="card-text">
+                <h3>Express</h3>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="imgs/mongo.jpg" alt="mongoDB">
+            </div>
+            <div class="card-text">
+                <h3>mongoDB</h3>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="imgs/cmd.jpg" alt="Command Line">
+            </div>
+            <div class="card-text">
+                <h3>Command Line</h3>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-img">
+                <img src="imgs/git.png" alt="Git">
+            </div>
+            <div class="card-text">
+                <h3>Git</h3>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section id="projects">
+
+        <h1>Portfolio</h1>
+
+        <p>Here are a few examples of my work.</p>
+
+        <section class="portfolio-cards">
+
+            <div class="card">
+                <a class="card-img" href="https://cic-films.herokuapp.com/" target="_blank">
+                    <img src="imgs/cic-films.png" class="cic" alt="CIC Films">
+                </a>
+
+                <div class="card-text">
+                    <h3>Technologies:</h3>
+                    <p>JS Vanilla, jQuery, LazyLoading, Respinsivity, Node.js, AJAX with Axios, Sweet Alert Library</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <a class="card-img" href="" target="_blank">
+                    <img src="imgs/portfolio.png" alt="html">
+                </a>
+
+                <div class="card-text">
+                    <h3>Technologies:</h3>
+                    <p>Responsivity, Sass, html Form submition, Node.js Server, Using Nodemailer</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <a class="card-img" href="https://arieshapiro.github.io/TechnicalDocumentationPage/" target="_blank">
+                    <img src="imgs/node-docs.png" class="sass" alt="Sass">
+                </a>
+
+                <div class="card-text">
+                    <h3>Technologies:</h3>
+                    <p>Responsivity, Positions, Flex Boxes</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <a class="card-img" href="https://arieshapiro.github.io/MemeGenerator/" target="_blank">
+                    <img src="imgs/meme.png" alt="html">
+                </a>
+                <div class="card-text">
+
+                    <h3>Technologies:</h3>
+                    <p>Html5 Canvas, MVC with Vanilla JS</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <a class="card-img" href="https://arieshapiro.github.io/ProductLandingPage/" target="_blank">
+                    <img src="imgs/product-landing-page.png" class="css" alt="css">
+                </a>
+                <div class="card-text">
+                    <h3>Technologies:</h3>
+                    <p>Responsivity, html5 iframe</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <a class="card-img" href="https://temp-job.herokuapp.com/#/" target="_blank">
+                    <img src="imgs/temp-job.png" class="temp-job">
+                </a>
+                <div class="card-text">
+                    <h3>Technologies:</h3>
+                    <p>Vue CLI 3, Vuex State Management, Vue Router, Node.js Server with mongoDB</p>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- NOT SEEN (Only for fcc testing purposes) -->
+        <div class="project-title">
+            <a href="https://cic-films.herokuapp.com/" target="_blank">CIC FILMS</a>
+        </div>
+        <!-- ---------------------------------------- -->
+
+    </section>
+
+
+    <section id="contact">
+
+        <h1>Contact</h1>
+
+        <p>I'd love to hear from you! Fill out the form below,
+            email me at <a href="mailto:aryehshapiro@gmail.com">aryehshapiro@gmail.com</a>,
+            or find me on <a href="https://twitter.com/ArieShapiro" target="_blank">Twitter</a>
+            or <a href="https://github.com/ArieShapiro" target="_blank">GitHub</a>.</p>
+
+        <form action="/" method="POST">
+
+            <div class="label-input-container">
+                <label for="name">Name</label>
+                <input type="text" name="name" required>
+            </div>
+
+
+            <div class="label-input-container">
+                <label for="email">Email Address</label>
+                <input type="email" name="email" required>
+            </div>
+
+
+            <div class="label-input-container">
+                <label for="Message">Message</label>
+                <textarea type="text" name="message"></textarea>
+            </div>
+
+            <input type="submit" value="send">
+
+        </form>
+
+    </section>
+
+    <footer>
+
+        <h1>Arie <strong>Shapiro</strong></h1>
+
+        <p>Web Developer, Designer and problem solver.
+            I Lilke philosophy, Psychology, Data Science and building communities.</p>
+
+        <section class="social-icons">
+
+            <a id="profile-link" href="https://github.com/ArieShapiro" target="_blank">
+
+                <i class="fab fa-github"></i>
+
+            </a>
+
+            <a id="profile-link" href="https://www.linkedin.com/in/arie-shapiro-411b8b33" target="_blank">
+
+                <i class="fab fa-linkedin"></i>
+
+            </a>
+
+            <a id="profile-link" href="https://twitter.com/ArieShapiro" target="_blank">
+
+                <i class="fab fa-twitter-square"></i>
+
+            </a>
+
+        </section>
+
+        <div class="footer-bottom">
+
+            <p>Made by Arie Shapiro.</p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
